@@ -1,0 +1,143 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #fff;
+    /* color: #fff; */
+    padding: 20px;
+    border-bottom: 3px solid #f2f2f2;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  .logo{
+    height: 2.5rem;
+    width: 5rem;
+    object-fit: cover;
+    background-blend-mode: lighten;
+ }
+ .logo_right{
+    height: 2.5rem;
+    object-fit: cover;
+ }
+  h1 {
+    font-size: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #tracking {
+    text-align: center;
+    margin: 7rem auto;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+    /* line-height: 10rem; */
+  }
+  
+  form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    padding: 10px;
+    width: 300px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #ff6347;
+  }
+  
+ 
+   
+  footer {
+    background-color: #fff;
+    color: #0a0a0a;
+    padding: 40px 20px;
+    text-align: center;
+    border-top: 2.4px solid #f2f2f2;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .footer-column {
+    flex-basis: 300px;
+    text-align: left;
+  }
+  
+  h3 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0a0a0a;
+  }
+  
+  p {
+    margin-bottom: 10px;
+    color: #0a0a0a;
+  }
+  
+  .social-media-links {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .social-media-links li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .social-media-links a {
+    color: #0a0a0a;
+    font-size: 24px;
+    transition: color 0.3s ease;
+  }
+  
+  .social-media-links a:hover {
+    color: #ff4500;
+  }
+  
+  .footer-bottom {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #0a0a0a;
+  }
+
+  @media (max-width: 768px) {
+    .footer-column {
+      flex-basis: 100%;
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }    
